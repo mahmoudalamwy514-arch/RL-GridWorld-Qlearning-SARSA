@@ -91,4 +91,5 @@ class GridWorld:
         plt.imshow(visual, cmap=cmap, norm=norm)
 
         plt.grid(True)
-        plt.show()
+        plt.pause(2.5)
+        plt.clf()
